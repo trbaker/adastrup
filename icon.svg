@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="GIS Learning Studio icon">
+  <rect width="512" height="512" rx="92" fill="#123b5d"/>
+  <circle cx="256" cy="238" r="132" fill="none" stroke="#cfe8f3" stroke-width="22"/>
+  <path d="M110 238h292M256 106c-48 42-72 86-72 132s24 90 72 132M256 106c48 42 72 86 72 132s-24 90-72 132" fill="none" stroke="#cfe8f3" stroke-width="17" stroke-linecap="round"/>
+  <path d="M256 75c-66 0-120 54-120 120 0 92 120 242 120 242s120-150 120-242c0-66-54-120-120-120z" fill="none" stroke="#f3b64b" stroke-width="22"/>
+  <circle cx="256" cy="194" r="40" fill="#f3b64b"/>
+</svg>

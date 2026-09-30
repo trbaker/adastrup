@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#123b5d" />
+  <meta name="description" content="Accessible, multilingual GIS learning companion with interactive ArcGIS maps and formative assessment." />
+  <title>GIS Learning Studio</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="https://js.arcgis.com/4.33/esri/themes/light/main.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div id="app" class="app-shell">
+    <header class="topbar" role="banner">
+      <div class="brand-wrap">
+        <button id="menuBtn" class="icon-btn mobile-only" aria-label="Open course navigation" aria-expanded="false">☰</button>
+        <div class="brand-mark" aria-hidden="true">⌖</div>
+        <div>
+          <div id="brandTitle" class="brand-title">GIS Learning Studio</div>
+          <div id="brandSub" class="brand-sub">Interactive GIS course companion</div>
+        </div>
+      </div>
+      <div class="top-actions">
+        <span id="saveStatus" class="save-status" role="status" aria-live="polite">Saved locally</span>
+        <button id="settingsBtn" class="btn secondary" aria-haspopup="dialog">Accessibility & settings</button>
+      </div>
+    </header>
+
+    <aside id="courseNav" class="sidebar" aria-label="Course navigation">
+      <div class="progress-card">
+        <div class="progress-row"><strong id="progressLabel">Course progress</strong><span id="progressPct">0%</span></div>
+        <div class="progress-track" role="progressbar" aria-label="Course progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="progressBar"></div></div>
+        <button id="continueBtn" class="btn primary full">Continue where I left off</button>
+      </div>
+      <nav>
+        <h2 id="modulesLabel" class="nav-heading">Modules</h2>
+        <div id="moduleNav"></div>
+      </nav>
+      <div id="gamePanel" class="game-panel" aria-live="polite"></div>
+    </aside>
+
+    <main id="main" class="main-content" tabindex="-1">
+      <section id="welcomeView" class="view"></section>
+      <section id="lessonView" class="view hidden" aria-labelledby="lessonTitle"></section>
+    </main>
+  </div>
+
+  <dialog id="settingsDialog" class="settings-dialog" aria-labelledby="settingsTitle">
+    <form method="dialog" class="dialog-card">
+      <div class="dialog-head">
+        <h2 id="settingsTitle">Accessibility & settings</h2>
+        <button class="icon-btn" value="cancel" aria-label="Close settings">✕</button>
+      </div>
+      <div class="settings-grid">
+        <label><span id="languageLabel">Language</span>
+          <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+          </select>
+        </label>
+        <fieldset>
+          <legend id="gameLabel">Gamification</legend>
+          <label><input type="radio" name="game" value="none"> <span id="gameNone">None</span></label>
+          <label><input type="radio" name="game" value="explorer"> <span id="gameExplorer">Explorer XP</span></label>
+          <label><input type="radio" name="game" value="badges"> <span id="gameBadges">Cartographer badges</span></label>
+          <label><input type="radio" name="game" value="quest"> <span id="gameQuest">Map Quest</span></label>
+        </fieldset>
+        <fieldset>
+          <legend id="accessLabel">Display supports</legend>
+          <label><input id="contrastToggle" type="checkbox"> <span id="contrastLabel">High contrast</span></label>
+          <label><input id="spacingToggle" type="checkbox"> <span id="spacingLabel">Readable spacing</span></label>
+          <label><input id="motionToggle" type="checkbox"> <span id="motionLabel">Reduce motion</span></label>
+          <label><input id="focusToggle" type="checkbox"> <span id="focusLabel">Focus mode</span></label>
+        </fieldset>
+        <label><span id="textSizeLabel">Text size</span>
+          <select id="textSizeSelect">
+            <option value="100">100%</option><option value="112">112%</option><option value="125">125%</option><option value="140">140%</option>
+          </select>
+        </label>
+      </div>
+      <hr />
+      <div class="data-actions">
+        <button id="exportBtn" type="button" class="btn secondary">Export progress</button>
+        <button id="importBtn" type="button" class="btn secondary">Import progress</button>
+        <input id="importFile" type="file" accept="application/json" hidden />
+        <button id="resetBtn" type="button" class="btn danger">Reset local progress</button>
+      </div>
+      <p id="privacyNote" class="small muted">Progress and notes are stored only in this browser unless you export them.</p>
+      <button id="doneSettings" class="btn primary" value="default">Done</button>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="content.js"></script>
+  <script src="https://js.arcgis.com/4.33/"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name":"GIS Learning Studio",
+  "short_name":"GIS Studio",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#f5f7fa",
+  "theme_color":"#123b5d",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
