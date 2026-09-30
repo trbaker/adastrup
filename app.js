@@ -9,44 +9,44 @@ const UI = {
  en:{
   saved:'Saved locally',saving:'Saving…',settings:'Accessibility & settings',progress:'Course progress',modules:'Modules',continue:'Continue where I left off',
   welcome:'Learn GIS by reading, mapping, checking, and revisiting',intro:'This companion course turns the open textbook into short learning cycles: read at the level that works for you, use a live ArcGIS map, answer formative questions, record notes, and return later without losing your place.',
-  featuresTitle:'Built for learner choice',features:['English, French, or Spanish','Three reading bands for multi-paragraph lessons','Live ArcGIS Online mapping missions','Formative feedback + confidence checks','Local progress saving + export/import','WCAG-oriented keyboard, contrast, motion, and text controls'],
+  featuresTitle:'Built for learner choice',features:['English, French, or Spanish','Three reading bands for multi-paragraph lessons','Live ArcGIS-powered maps using anonymous public services','Formative feedback + confidence checks','Local progress saving + export/import','WCAG-oriented keyboard, contrast, motion, and text controls'],
   start:'Start module',resume:'Resume module',completed:'Completed',sourceLicense:'Source & license',sourceNote:'Adapted for noncommercial learning from the openly licensed textbook Geographic Information Systems and Cartography by Adam Dastrup (2022). Original text remains the authoritative source.',
   unit:'Unit',objectives:'Learning objectives',readingLevel:'Reading level',essential:'Essential',standard:'Standard',advanced:'Advanced',keyTerms:'Key terms',bookSections:'Original book sections',openBook:'Open this unit in the source book',markComplete:'Mark lesson complete',lessonComplete:'Lesson complete',
-  mapLab:'Live ArcGIS map lab',mapMission:'Map mission',missionDone:'Mission completed',markMission:'Mark map mission complete',mapAlt:'Interactive ArcGIS map. Keyboard users can tab into map controls; the mission text above provides the learning task without requiring mouse-only interaction.',
+  mapLab:'Live ArcGIS map lab',mapMission:'Map mission',missionDone:'Mission completed',markMission:'Mark map mission complete',mapAlt:'Interactive ArcGIS map using anonymous public data. No ArcGIS account is required. Keyboard users can tab into map controls; the mission text above provides the learning task without requiring mouse-only interaction.',basemap:'Basemap',streets:'OpenStreetMap',topo:'USGS Topo',imagery:'USGS Imagery',jumpTo:'Example place',anonymous:'Anonymous access only',states:'U.S. States',counties:'U.S. Counties',places:'Incorporated Places',
   assessment:'Formative check',assessmentHelp:'Answer, rate your confidence, then check your thinking. You can retry.',confidence:'Confidence',low:'Low',medium:'Medium',high:'High',check:'Check answers',retry:'Retry',score:'Score',correct:'Correct',review:'Review this idea',
   notes:'Field notes',notesHint:'Write an observation, question, example, or connection. Notes save automatically.',notesSaved:'Notes saved locally.',
   language:'Language',game:'Gamification',none:'None',explorer:'Explorer XP',badges:'Cartographer badges',quest:'Map Quest',display:'Display supports',contrast:'High contrast',spacing:'Readable spacing',motion:'Reduce motion',focus:'Focus mode',textSize:'Text size',export:'Export progress',import:'Import progress',reset:'Reset local progress',privacy:'Progress and notes are stored only in this browser unless you export them.',done:'Done',
   xp:'Explorer XP',rank:'Rank',badgeCollection:'Badge collection',questProgress:'Map Quest',stamps:'map stamps',next:'Next module',reviewDeck:'Retrieval review',reviewDeckText:'Missed questions are saved here so you can revisit them instead of simply moving on.',reviewNow:'Review missed concept',
   resetConfirm:'Reset all saved progress, settings, notes, and assessment results on this device?',imported:'Progress imported.',badImport:'That file could not be imported.',exported:'Progress file created.',savedToast:'Progress saved.',missionToast:'Map mission recorded.',completeToast:'Module marked complete.',
-  offline:'The course shell can work offline after its first visit. Live ArcGIS maps still require an internet connection.'
+  offline:'The course shell can work offline after its first visit. Live maps require an internet connection, but they do not require an ArcGIS sign-in.'
  },
  fr:{
   saved:'Enregistré localement',saving:'Enregistrement…',settings:'Accessibilité et réglages',progress:'Progression du cours',modules:'Modules',continue:'Reprendre là où je me suis arrêté',
   welcome:'Apprendre les SIG en lisant, cartographiant, vérifiant et révisant',intro:'Ce cours compagnon transforme le manuel ouvert en cycles courts : lire au niveau adapté, utiliser une carte ArcGIS en direct, répondre à des questions formatives, prendre des notes et reprendre plus tard sans perdre sa progression.',
-  featuresTitle:'Conçu pour le choix de l’apprenant',features:['Anglais, français ou espagnol','Trois niveaux de lecture pour les leçons de plusieurs paragraphes','Missions avec cartes ArcGIS en direct','Rétroaction formative + confiance','Sauvegarde locale + export/import','Contrôles clavier, contraste, mouvement et taille du texte'],
+  featuresTitle:'Conçu pour le choix de l’apprenant',features:['Anglais, français ou espagnol','Trois niveaux de lecture pour les leçons de plusieurs paragraphes','Cartes ArcGIS en direct utilisant des services publics anonymes','Rétroaction formative + confiance','Sauvegarde locale + export/import','Contrôles clavier, contraste, mouvement et taille du texte'],
   start:'Commencer le module',resume:'Reprendre le module',completed:'Terminé',sourceLicense:'Source et licence',sourceNote:'Adapté pour un apprentissage non commercial à partir du manuel ouvert Geographic Information Systems and Cartography d’Adam Dastrup (2022). Le texte original reste la source de référence.',
   unit:'Unité',objectives:'Objectifs d’apprentissage',readingLevel:'Niveau de lecture',essential:'Essentiel',standard:'Standard',advanced:'Avancé',keyTerms:'Mots-clés',bookSections:'Sections du livre original',openBook:'Ouvrir cette unité dans le livre source',markComplete:'Marquer la leçon terminée',lessonComplete:'Leçon terminée',
-  mapLab:'Laboratoire ArcGIS en direct',mapMission:'Mission cartographique',missionDone:'Mission terminée',markMission:'Marquer la mission terminée',mapAlt:'Carte ArcGIS interactive. Les utilisateurs du clavier peuvent accéder aux contrôles ; le texte de mission fournit aussi la tâche sans souris.',
+  mapLab:'Laboratoire ArcGIS en direct',mapMission:'Mission cartographique',missionDone:'Mission terminée',markMission:'Marquer la mission terminée',mapAlt:'Carte ArcGIS interactive utilisant des données publiques anonymes. Aucun compte ArcGIS n’est requis. Les utilisateurs du clavier peuvent accéder aux contrôles ; le texte de mission fournit aussi la tâche sans souris.',basemap:'Fond de carte',streets:'OpenStreetMap',topo:'Topo USGS',imagery:'Imagerie USGS',jumpTo:'Lieu exemple',anonymous:'Accès anonyme uniquement',states:'États des É.-U.',counties:'Comtés des É.-U.',places:'Lieux incorporés',
   assessment:'Vérification formative',assessmentHelp:'Répondez, indiquez votre confiance, puis vérifiez votre raisonnement. Vous pouvez recommencer.',confidence:'Confiance',low:'Faible',medium:'Moyenne',high:'Élevée',check:'Vérifier les réponses',retry:'Recommencer',score:'Score',correct:'Correct',review:'À revoir',
   notes:'Carnet de terrain',notesHint:'Notez une observation, une question, un exemple ou un lien. Les notes sont enregistrées automatiquement.',notesSaved:'Notes enregistrées localement.',
   language:'Langue',game:'Ludification',none:'Aucune',explorer:'XP Explorateur',badges:'Badges de cartographe',quest:'Quête cartographique',display:'Aides d’affichage',contrast:'Contraste élevé',spacing:'Espacement lisible',motion:'Réduire les animations',focus:'Mode concentration',textSize:'Taille du texte',export:'Exporter la progression',import:'Importer la progression',reset:'Réinitialiser la progression locale',privacy:'La progression et les notes sont stockées uniquement dans ce navigateur sauf si vous les exportez.',done:'Terminé',
   xp:'XP Explorateur',rank:'Rang',badgeCollection:'Collection de badges',questProgress:'Quête cartographique',stamps:'tampons cartographiques',next:'Module suivant',reviewDeck:'Révision espacée',reviewDeckText:'Les questions manquées sont conservées pour vous permettre d’y revenir.',reviewNow:'Revoir un concept manqué',
   resetConfirm:'Réinitialiser toute la progression, les réglages, les notes et les résultats sur cet appareil ?',imported:'Progression importée.',badImport:'Impossible d’importer ce fichier.',exported:'Fichier de progression créé.',savedToast:'Progression enregistrée.',missionToast:'Mission cartographique enregistrée.',completeToast:'Module marqué comme terminé.',
-  offline:'L’interface du cours peut fonctionner hors ligne après la première visite. Les cartes ArcGIS en direct nécessitent toujours Internet.'
+  offline:'L’interface du cours peut fonctionner hors ligne après la première visite. Les cartes en direct nécessitent Internet, mais aucun identifiant ArcGIS.'
  },
  es:{
   saved:'Guardado localmente',saving:'Guardando…',settings:'Accesibilidad y ajustes',progress:'Progreso del curso',modules:'Módulos',continue:'Continuar donde lo dejé',
   welcome:'Aprende SIG leyendo, mapeando, comprobando y repasando',intro:'Este curso complementario convierte el libro abierto en ciclos breves: leer al nivel adecuado, usar un mapa ArcGIS en vivo, responder preguntas formativas, tomar notas y volver después sin perder el progreso.',
-  featuresTitle:'Diseñado para dar opciones al estudiante',features:['Inglés, francés o español','Tres niveles de lectura para lecciones de varios párrafos','Misiones con mapas ArcGIS en vivo','Retroalimentación formativa + confianza','Guardado local + exportar/importar','Controles de teclado, contraste, movimiento y tamaño de texto'],
+  featuresTitle:'Diseñado para dar opciones al estudiante',features:['Inglés, francés o español','Tres niveles de lectura para lecciones de varios párrafos','Mapas ArcGIS en vivo con servicios públicos anónimos','Retroalimentación formativa + confianza','Guardado local + exportar/importar','Controles de teclado, contraste, movimiento y tamaño de texto'],
   start:'Comenzar módulo',resume:'Reanudar módulo',completed:'Completado',sourceLicense:'Fuente y licencia',sourceNote:'Adaptado para aprendizaje no comercial del libro abierto Geographic Information Systems and Cartography de Adam Dastrup (2022). El texto original sigue siendo la fuente autorizada.',
   unit:'Unidad',objectives:'Objetivos de aprendizaje',readingLevel:'Nivel de lectura',essential:'Esencial',standard:'Estándar',advanced:'Avanzado',keyTerms:'Términos clave',bookSections:'Secciones del libro original',openBook:'Abrir esta unidad en el libro fuente',markComplete:'Marcar lección completada',lessonComplete:'Lección completada',
-  mapLab:'Laboratorio ArcGIS en vivo',mapMission:'Misión de mapa',missionDone:'Misión completada',markMission:'Marcar misión de mapa completada',mapAlt:'Mapa ArcGIS interactivo. Los usuarios de teclado pueden entrar en los controles; el texto de la misión ofrece la tarea sin depender del ratón.',
+  mapLab:'Laboratorio ArcGIS en vivo',mapMission:'Misión de mapa',missionDone:'Misión completada',markMission:'Marcar misión de mapa completada',mapAlt:'Mapa ArcGIS interactivo con datos públicos anónimos. No se requiere una cuenta de ArcGIS. Los usuarios de teclado pueden entrar en los controles; el texto de la misión ofrece la tarea sin depender del ratón.',basemap:'Mapa base',streets:'OpenStreetMap',topo:'Topo USGS',imagery:'Imágenes USGS',jumpTo:'Lugar de ejemplo',anonymous:'Solo acceso anónimo',states:'Estados de EE. UU.',counties:'Condados de EE. UU.',places:'Lugares incorporados',
   assessment:'Comprobación formativa',assessmentHelp:'Responde, indica tu confianza y comprueba tu razonamiento. Puedes volver a intentarlo.',confidence:'Confianza',low:'Baja',medium:'Media',high:'Alta',check:'Comprobar respuestas',retry:'Reintentar',score:'Puntuación',correct:'Correcto',review:'Repasar esta idea',
   notes:'Notas de campo',notesHint:'Escribe una observación, pregunta, ejemplo o conexión. Las notas se guardan automáticamente.',notesSaved:'Notas guardadas localmente.',
   language:'Idioma',game:'Gamificación',none:'Ninguna',explorer:'XP Explorador',badges:'Insignias de cartógrafo',quest:'Map Quest',display:'Apoyos de visualización',contrast:'Alto contraste',spacing:'Espaciado legible',motion:'Reducir movimiento',focus:'Modo de enfoque',textSize:'Tamaño del texto',export:'Exportar progreso',import:'Importar progreso',reset:'Restablecer progreso local',privacy:'El progreso y las notas se almacenan solo en este navegador a menos que los exportes.',done:'Listo',
   xp:'XP Explorador',rank:'Rango',badgeCollection:'Colección de insignias',questProgress:'Map Quest',stamps:'sellos de mapa',next:'Siguiente módulo',reviewDeck:'Repaso de recuperación',reviewDeckText:'Las preguntas falladas se guardan para que puedas volver a ellas en vez de simplemente avanzar.',reviewNow:'Repasar concepto fallado',
   resetConfirm:'¿Restablecer todo el progreso, ajustes, notas y resultados guardados en este dispositivo?',imported:'Progreso importado.',badImport:'No se pudo importar ese archivo.',exported:'Archivo de progreso creado.',savedToast:'Progreso guardado.',missionToast:'Misión de mapa registrada.',completeToast:'Módulo marcado como completado.',
-  offline:'La estructura del curso puede funcionar sin conexión después de la primera visita. Los mapas ArcGIS en vivo aún requieren Internet.'
+  offline:'La estructura del curso puede funcionar sin conexión después de la primera visita. Los mapas en vivo requieren Internet, pero no un inicio de sesión de ArcGIS.'
  }
 };
 
@@ -243,25 +243,111 @@ function gradeQuiz(m){
 function initMap(mode){
  destroyMap(); const mapEl=$('#mapView'); if(!mapEl)return;
  if(typeof window.require!=='function'){mapEl.innerHTML='<p style="padding:1rem">ArcGIS map library unavailable.</p>';return;}
- window.require(['esri/Map','esri/views/MapView','esri/layers/FeatureLayer','esri/widgets/Search','esri/widgets/Home','esri/widgets/LayerList','esri/widgets/BasemapGallery','esri/widgets/Expand','esri/widgets/Legend'],
- (Map,MapView,FeatureLayer,Search,Home,LayerList,BasemapGallery,Expand,Legend)=>{
+ window.require([
+  'esri/config','esri/Map','esri/Basemap','esri/views/MapView','esri/layers/FeatureLayer','esri/layers/OpenStreetMapLayer','esri/layers/TileLayer',
+  'esri/widgets/Home','esri/widgets/LayerList','esri/widgets/Expand','esri/widgets/Legend'
+ ],(esriConfig,Map,Basemap,MapView,FeatureLayer,OpenStreetMapLayer,TileLayer,Home,LayerList,Expand,Legend)=>{
   if(!$('#mapView')) return;
-  const imagery=mode==='imagery';
-  const map=new Map({basemap:imagery?'satellite':'topo-vector'});
-  const states=new FeatureLayer({url:'https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_States_Generalized/FeatureServer/0',title:'U.S. States',outFields:['*'],opacity:.42});
-  const counties=new FeatureLayer({url:'https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Counties_Generalized/FeatureServer/0',title:'U.S. Counties',outFields:['*'],opacity:.36});
-  const cities=new FeatureLayer({url:'https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/USA_Major_Cities/FeatureServer/0',title:'U.S. Major Cities',outFields:['*']});
-  if(mode==='cities'){map.addMany([states,cities]);}
-  else if(mode==='states'){map.add(states);}
-  else if(mode==='counties'){map.addMany([counties,cities]);}
-  else if(mode==='imagery'){map.add(states);}
-  else {map.addMany([states,cities]);}
-  const view=new MapView({container:'mapView',map,center:[-98,39],zoom:4,constraints:{snapToZoom:false}});activeMapView=view;
-  view.ui.add(new Home({view}),'top-left');view.ui.add(new Search({view}),'top-right');
+
+  // Anonymous-only policy: never ask IdentityManager for a credential. If a
+  // service is ever secured in the future, the request fails instead of
+  // showing an ArcGIS sign-in dialog.
+  esriConfig.request.useIdentity=false;
+
+  const osmLayer=new OpenStreetMapLayer({title:'OpenStreetMap'});
+  const usgsTopoLayer=new TileLayer({
+   url:'https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer',
+   title:'USGS Topo'
+  });
+  const usgsImageryLayer=new TileLayer({
+   url:'https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer',
+   title:'USGS Imagery'
+  });
+  const basemaps={
+   osm:new Basemap({baseLayers:[osmLayer],title:'OpenStreetMap',id:'anonymous-osm'}),
+   topo:new Basemap({baseLayers:[usgsTopoLayer],title:'USGS Topo',id:'anonymous-usgs-topo'}),
+   imagery:new Basemap({baseLayers:[usgsImageryLayer],title:'USGS Imagery',id:'anonymous-usgs-imagery'})
+  };
+  let currentBasemap=mode==='imagery'?'imagery':'osm';
+  const map=new Map({basemap:basemaps[currentBasemap]});
+
+  const states=new FeatureLayer({
+   url:'https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer/80',
+   title:t('states'),outFields:['*'],opacity:.62,visible:true,
+   renderer:{type:'simple',symbol:{type:'simple-fill',color:[40,105,140,20],outline:{color:[24,75,105,210],width:1.25}}},
+   popupTemplate:{title:'{BASENAME}',content:[{type:'fields',fieldInfos:[{fieldName:'GEOID',label:'GEOID'},{fieldName:'AREALAND',label:'Land area (m²)',format:{digitSeparator:true,places:0}}]}]}
+  });
+  const counties=new FeatureLayer({
+   url:'https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_Current/MapServer/82',
+   title:t('counties'),outFields:['*'],opacity:.58,visible:mode==='counties'||mode==='design',
+   renderer:{type:'simple',symbol:{type:'simple-fill',color:[255,255,255,0],outline:{color:[95,95,95,160],width:.65}}},
+   popupTemplate:{title:'{BASENAME}',content:[{type:'fields',fieldInfos:[{fieldName:'GEOID',label:'GEOID'},{fieldName:'AREALAND',label:'Land area (m²)',format:{digitSeparator:true,places:0}}]}]}
+  });
+  const places=new FeatureLayer({
+   url:'https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/4',
+   title:t('places'),outFields:['*'],opacity:.72,visible:mode==='cities'||mode==='counties',
+   renderer:{type:'simple',symbol:{type:'simple-fill',color:[230,158,45,55],outline:{color:[155,92,5,210],width:1}}},
+   popupTemplate:{title:'{BASENAME}',content:[{type:'fields',fieldInfos:[{fieldName:'GEOID',label:'GEOID'},{fieldName:'STATE',label:'State FIPS'}]}]}
+  });
+  map.addMany([states,counties,places]);
+
+  const initialView=mode==='counties'?{center:[-98,39],zoom:6}:{center:[-98,39],zoom:4};
+  const view=new MapView({container:'mapView',map,...initialView,constraints:{snapToZoom:false}});activeMapView=view;
+  view.ui.add(new Home({view}),'top-left');
   const layerList=new LayerList({view});view.ui.add(new Expand({view,content:layerList,group:'top-right',expanded:false}),'top-right');
-  const gallery=new BasemapGallery({view});view.ui.add(new Expand({view,content:gallery,group:'top-right',expanded:mode==='design'}),'top-right');
-  view.ui.add(new Expand({view,content:new Legend({view}),group:'top-right'}),'top-right');
-  view.when().catch(()=>{if($('#mapView')) $('#mapView').insertAdjacentHTML('beforeend','<div class="feedback bad" style="position:absolute;bottom:10px;left:10px">Map could not load. Check the internet connection.</div>');});
+  view.ui.add(new Expand({view,content:new Legend({view}),group:'top-right',expanded:false}),'top-right');
+
+  const controls=document.createElement('div');
+  controls.id='anonymousMapControls';
+  controls.className='map-toolbar anonymous-map-controls';
+  controls.innerHTML=`
+   <div class="map-tool-group" role="group" aria-label="${esc(t('basemap'))}">
+    <strong class="map-tool-label">${esc(t('basemap'))}:</strong>
+    <button type="button" class="map-chip" data-basemap="osm">${esc(t('streets'))}</button>
+    <button type="button" class="map-chip" data-basemap="topo">${esc(t('topo'))}</button>
+    <button type="button" class="map-chip" data-basemap="imagery">${esc(t('imagery'))}</button>
+   </div>
+   <label class="map-place-label"><span>${esc(t('jumpTo'))}:</span>
+    <select id="placePreset" aria-label="${esc(t('jumpTo'))}">
+     <option value="us">United States</option>
+     <option value="newyork">New York City</option>
+     <option value="chicago">Chicago</option>
+     <option value="denver">Denver / Front Range</option>
+     <option value="losangeles">Los Angeles</option>
+     <option value="miami">Miami</option>
+     <option value="seattle">Seattle</option>
+     <option value="saltlake">Salt Lake City</option>
+    </select>
+   </label>
+   <span class="anonymous-pill" title="No API key, OAuth, or ArcGIS user login is used">🔓 ${esc(t('anonymous'))}</span>`;
+  mapEl.insertAdjacentElement('beforebegin',controls);
+
+  const updateBasemapButtons=()=>{
+   $$('[data-basemap]',controls).forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.basemap===currentBasemap)));
+  };
+  $$('[data-basemap]',controls).forEach(b=>b.addEventListener('click',()=>{
+   currentBasemap=b.dataset.basemap;
+   map.basemap=basemaps[currentBasemap];
+   updateBasemapButtons();
+  }));
+  updateBasemapButtons();
+
+  const presets={
+   us:{center:[-98,39],zoom:4},newyork:{center:[-74.006,40.713],zoom:10},chicago:{center:[-87.630,41.878],zoom:10},
+   denver:{center:[-104.990,39.739],zoom:9},losangeles:{center:[-118.244,34.052],zoom:9},miami:{center:[-80.192,25.762],zoom:10},
+   seattle:{center:[-122.332,47.606],zoom:9},saltlake:{center:[-111.891,40.761],zoom:10}
+  };
+  $('#placePreset')?.addEventListener('change',e=>{const p=presets[e.target.value];if(p)view.goTo(p,{duration:state.display.motion?0:700}).catch(()=>{});});
+
+  const showMapError=(message)=>{
+   if(!$('#mapView')||$('#mapView .map-load-warning'))return;
+   const d=document.createElement('div');d.className='feedback bad map-load-warning';d.textContent=message;
+   mapEl.appendChild(d);
+  };
+  Promise.allSettled([states.load(),counties.load(),places.load(),osmLayer.load(),usgsTopoLayer.load(),usgsImageryLayer.load()]).then(results=>{
+   if(results.some(r=>r.status==='rejected')) showMapError('One anonymous map source is unavailable. No sign-in is needed; try another basemap or reload later.');
+  });
+  view.when().catch(()=>showMapError('Map could not load. Check the internet connection. No ArcGIS sign-in is required.'));
  });
 }
 function destroyMap(){if(activeMapView){try{activeMapView.destroy();}catch{} activeMapView=null;}}

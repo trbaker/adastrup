@@ -125,9 +125,9 @@ window.GIS_COURSE = {
       "source": "https://slcc.pressbooks.pub/maps/chapter/1-1/",
       "mapMode": "cities",
       "mapMission": {
-        "en": "Turn cities and state boundaries on. Zoom from the national scale to a city. What information becomes useful at each scale?",
-        "fr": "Activez les villes et les limites des États. Passez de l’échelle nationale à une ville. Quelles informations deviennent utiles à chaque échelle ?",
-        "es": "Activa ciudades y límites estatales. Acércate desde la escala nacional hasta una ciudad. ¿Qué información resulta útil en cada escala?"
+        "en": "Use the example-place menu to move from the national scale to a city, then toggle Incorporated Places and state boundaries in the layer list. What information becomes useful at each scale?",
+        "fr": "Utilisez le menu des lieux exemples pour passer de l’échelle nationale à une ville, puis activez les lieux incorporés et les limites des États dans la liste des couches. Quelles informations deviennent utiles à chaque échelle ?",
+        "es": "Usa el menú de lugares de ejemplo para pasar de la escala nacional a una ciudad y activa Lugares incorporados y límites estatales en la lista de capas. ¿Qué información resulta útil en cada escala?"
       },
       "quiz": [
         {
@@ -301,9 +301,9 @@ window.GIS_COURSE = {
       "source": "https://slcc.pressbooks.pub/maps/chapter/2-2/",
       "mapMode": "states",
       "mapMission": {
-        "en": "Switch between basemaps, then zoom in and out. Notice how the same boundaries and features are generalized or emphasized differently.",
-        "fr": "Changez de fond de carte puis zoomez. Observez comment les mêmes limites et entités sont généralisées ou mises en valeur différemment.",
-        "es": "Cambia entre mapas base y acerca o aleja. Observa cómo los mismos límites y entidades se generalizan o destacan de manera diferente."
+        "en": "Switch among OpenStreetMap, USGS Topo, and USGS Imagery, then zoom in and out. Notice how the same boundaries and features are generalized or emphasized differently.",
+        "fr": "Passez entre OpenStreetMap, USGS Topo et l’imagerie USGS, puis zoomez. Observez comment les mêmes limites et entités sont généralisées ou mises en valeur différemment.",
+        "es": "Cambia entre OpenStreetMap, USGS Topo e Imágenes USGS y acerca o aleja. Observa cómo los mismos límites y entidades se generalizan o destacan de manera diferente."
       },
       "quiz": [
         {
@@ -648,9 +648,9 @@ window.GIS_COURSE = {
       "source": "https://slcc.pressbooks.pub/maps/chapter/4-1/",
       "mapMode": "imagery",
       "mapMission": {
-        "en": "Switch to the imagery basemap, then turn vector boundaries on. Identify which information is raster and which is vector.",
-        "fr": "Passez au fond d’imagerie puis activez les limites vectorielles. Identifiez les informations raster et vectorielles.",
-        "es": "Cambia al mapa base de imágenes y activa límites vectoriales. Identifica qué información es ráster y cuál es vectorial."
+        "en": "Choose USGS Imagery, then use the layer list to turn vector boundaries on and off. Identify which information is raster and which is vector.",
+        "fr": "Choisissez l’imagerie USGS, puis utilisez la liste des couches pour activer ou désactiver les limites vectorielles. Identifiez les informations raster et vectorielles.",
+        "es": "Elige Imágenes USGS y usa la lista de capas para activar o desactivar los límites vectoriales. Identifica qué información es ráster y cuál es vectorial."
       },
       "quiz": [
         {
@@ -995,9 +995,9 @@ window.GIS_COURSE = {
       "source": "https://slcc.pressbooks.pub/maps/chapter/6-1/",
       "mapMode": "cities",
       "mapMission": {
-        "en": "Use Search to find a place, then inspect nearby cities and boundaries. Imagine filtering the layer: what attribute question would produce a meaningful subset?",
-        "fr": "Utilisez la recherche pour trouver un lieu puis examinez villes et limites voisines. Quelle question attributaire produirait un sous-ensemble pertinent ?",
-        "es": "Usa Buscar para encontrar un lugar y examina ciudades y límites cercanos. ¿Qué pregunta de atributos produciría un subconjunto útil?"
+        "en": "Use the example-place menu or pan and zoom to a city, then inspect nearby incorporated places and boundaries. Imagine filtering the layer: what attribute question would produce a meaningful subset?",
+        "fr": "Utilisez le menu des lieux exemples, ou déplacez et zoomez la carte vers une ville, puis examinez les lieux incorporés et les limites voisines. Quelle question attributaire produirait un sous-ensemble pertinent ?",
+        "es": "Usa el menú de lugares de ejemplo, o desplaza y acerca el mapa hacia una ciudad, y examina los lugares incorporados y límites cercanos. ¿Qué pregunta de atributos produciría un subconjunto útil?"
       },
       "quiz": [
         {
@@ -1347,9 +1347,9 @@ window.GIS_COURSE = {
       "source": "https://slcc.pressbooks.pub/maps/chapter/8-1/",
       "mapMode": "imagery",
       "mapMission": {
-        "en": "Use imagery and zoom to a mountainous area. What continuous surfaces could be modeled there—elevation, slope, temperature, vegetation index? Which would require additional raster data?",
-        "fr": "Utilisez l’imagerie et zoomez sur une zone montagneuse. Quelles surfaces continues pourraient être modélisées : altitude, pente, température, indice de végétation ?",
-        "es": "Usa imágenes y acércate a una zona montañosa. ¿Qué superficies continuas podrían modelarse: elevación, pendiente, temperatura, índice de vegetación?"
+        "en": "Choose USGS Imagery and use Denver / Front Range or Salt Lake City as a starting point for a mountainous area. What continuous surfaces could be modeled there—elevation, slope, temperature, vegetation index? Which would require additional raster data?",
+        "fr": "Choisissez l’imagerie USGS et utilisez Denver / Front Range ou Salt Lake City comme point de départ vers une zone montagneuse. Quelles surfaces continues pourraient être modélisées : altitude, pente, température, indice de végétation ?",
+        "es": "Elige Imágenes USGS y usa Denver / Front Range o Salt Lake City como punto de partida hacia una zona montañosa. ¿Qué superficies continuas podrían modelarse: elevación, pendiente, temperatura, índice de vegetación?"
       },
       "quiz": [
         {
@@ -1520,9 +1520,9 @@ window.GIS_COURSE = {
       "source": "https://slcc.pressbooks.pub/maps/chapter/9-1/",
       "mapMode": "design",
       "mapMission": {
-        "en": "Open Basemap Gallery and compare at least three basemaps. Which one creates the strongest visual hierarchy for the vector layers, and why?",
-        "fr": "Ouvrez la galerie de fonds de carte et comparez-en au moins trois. Lequel crée la meilleure hiérarchie visuelle pour les couches vectorielles, et pourquoi ?",
-        "es": "Abre la galería de mapas base y compara al menos tres. ¿Cuál crea la jerarquía visual más fuerte para las capas vectoriales y por qué?"
+        "en": "Use the anonymous basemap buttons to compare OpenStreetMap, USGS Topo, and USGS Imagery. Which one creates the strongest visual hierarchy for the vector layers, and why?",
+        "fr": "Utilisez les boutons de fonds de carte anonymes pour comparer OpenStreetMap, USGS Topo et l’imagerie USGS. Lequel crée la meilleure hiérarchie visuelle pour les couches vectorielles, et pourquoi ?",
+        "es": "Usa los botones de mapas base anónimos para comparar OpenStreetMap, USGS Topo e Imágenes USGS. ¿Cuál crea la jerarquía visual más fuerte para las capas vectoriales y por qué?"
       },
       "quiz": [
         {
